@@ -21,7 +21,7 @@ public class ItemsController {
 		map.put(3, "wash");
 	}
 	
-	@GetMapping("/") //http://localhost:5050/swagger-ui.html
+	@GetMapping("/get") //http://localhost:5050/swagger-ui.html
 	public Map<Integer, String> getItems() {
 		return map;
 	}
